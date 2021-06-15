@@ -31,12 +31,13 @@ class FunctionsClass {
 			false
 		);
 
-//		wp_enqueue_style(
-//			'additional-style',
-//			get_template_directory_uri() . '/assets/css/style.css',
-//			array(),
-//			filemtime( plugin_dir_path( __FILE__ ) . 'assets/css/style.css' )
-//		);
+		wp_enqueue_script(
+			'university-javascript',
+			get_template_directory_uri() . '/assets/js/scripts-bundled.js',
+			array(),
+			filemtime( plugin_dir_path( __FILE__ ) . '/assets/js/scripts-bundled.js' ),
+			true
+		);
 
 	}
 
