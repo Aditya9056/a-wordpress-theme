@@ -7,47 +7,47 @@
   box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
 
   &--position-up {
-    position: absolute;
-    top: 0;
-    transform: translateY(-50%);
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
   }
 
   &--with-home-link {
-    padding: 0;
+	padding: 0;
   }
 
   &__main {
-    padding: 10px 15px 10px 11px;
+	padding: 10px 15px 10px 11px;
   }
 
   p {
-    margin: 0;
-    font-size: .9rem;
-    color: color($beige l(-45%) s(-33%));
+	margin: 0;
+	font-size: .9rem;
+	color: color($beige l(-45%) s(-33%));
   }
 
   a {
-    color: color($beige l(-45%) s(-33%));
-    text-decoration: none;
-    font-weight: bold;
+	color: color($beige l(-45%) s(-33%));
+	text-decoration: none;
+	font-weight: bold;
   }
 
   a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
   }
 
   & &__blog-home-link {
-    background-color: $mainBlue;
-    color: #FFF;
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 3px 0 0 3px;
-    font-weight: normal;
+	background-color: $mainBlue;
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 3px 0 0 3px;
+	font-weight: normal;
   }
 
   & &__blog-home-link:hover {
-    text-decoration: none;
-    background-color: color($mainBlue l(-5%));
+	text-decoration: none;
+	background-color: color($mainBlue l(-5%));
   }
 
 }

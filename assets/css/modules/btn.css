@@ -11,83 +11,83 @@
   outline: none;
 
   &--small {
-    font-size: .88rem;
-    padding: 7px 13px;
-    font-weight: 300;
+	font-size: .88rem;
+	padding: 7px 13px;
+	font-weight: 300;
   }
 
   &--with-photo {
-    padding-left: 40px;
-    position: relative;
+	padding-left: 40px;
+	position: relative;
   }
 
   &--orange {
-    background-color: $lightOrange;
+	background-color: $lightOrange;
   }
 
   &--orange:hover {
-    background: linear-gradient($lightOrange, color($lightOrange b(+30%) s(+80%)));
+	background: linear-gradient($lightOrange, color($lightOrange b(+30%) s(+80%)));
   }
 
   &--dark-orange {
-    background-color: $darkOrange;
+	background-color: $darkOrange;
   }
 
   &--dark-orange:hover {
-    background: linear-gradient($darkOrange, color($darkOrange b(+40%) s(+80%)));
+	background: linear-gradient($darkOrange, color($darkOrange b(+40%) s(+80%)));
   }
 
   &--blue {
-    background-color: $mainBlue;
+	background-color: $mainBlue;
   }
 
   &--blue:hover {
-    background: linear-gradient(color($mainBlue b(-16%)), $mainBlue);
+	background: linear-gradient(color($mainBlue b(-16%)), $mainBlue);
   }
 
   &--yellow {
-    background-color: $mainYellow;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+	background-color: $mainYellow;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
   }
 
   &--yellow:hover {
-    background: linear-gradient($mainYellow, color($mainYellow b(+40%) s(+80%)));
+	background: linear-gradient($mainYellow, color($mainYellow b(+40%) s(+80%)));
   }
 
   &--beige {
-    background-color: $beige;
-    color: #173f58;
+	background-color: $beige;
+	color: #173f58;
   }
 
   &--beige:hover {
-    background-color: $mainYellow;
+	background-color: $mainYellow;
   }
 
   &--gray {
-    background-color: #222;
+	background-color: #222;
   }
 
   &--white {
-    background-color: #FFF;
-    color: #173f58;
+	background-color: #FFF;
+	color: #173f58;
   }
 
   &--white:hover {
-    background-color: #DDD;
+	background-color: #DDD;
   }
 
   &--large {
-    font-size: 1.3rem;
-    padding: 16px 34px;
-    border-radius: 7px;
-    @mixin atSmall {
-      font-size: 1.9rem;
-    }
+	font-size: 1.3rem;
+	padding: 16px 34px;
+	border-radius: 7px;
+	@mixin atSmall {
+	  font-size: 1.9rem;
+	}
   }
 
   &--inactive {
-    background-color: transparent;
-    cursor: default;
-    color: #333;
+	background-color: transparent;
+	cursor: default;
+	color: #333;
   }
 }

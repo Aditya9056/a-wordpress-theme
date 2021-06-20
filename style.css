@@ -388,8 +388,8 @@ p, li {
 }
 @media (min-width: 530px) {
   .page-section {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem
   }
 }
 .page-section--white {
@@ -424,18 +424,18 @@ p, li {
 }
 @-webkit-keyframes spin {
   0% {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 @keyframes spin {
   0% {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 .spinner-loader {
@@ -463,8 +463,8 @@ p, li {
 }
 @media (min-width: 960px) {
   .search-trigger {
-    display: inline-block;
-    top: 6px
+	display: inline-block;
+	top: 6px
   }
 }
 .search-trigger:hover {
@@ -517,7 +517,7 @@ p, li {
 }
 @media (min-width: 960px) {
   .row {
-    margin-right: -50px;
+	margin-right: -50px;
   }
 
   .one-half,
@@ -526,10 +526,10 @@ p, li {
   .one-fourth,
   .one-fifth,
   .one-sixth {
-    padding-bottom: 0;
-    float: left;
-    box-sizing: border-box;
-    padding-right: 50px;
+	padding-bottom: 0;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 50px;
   }
 
   .two-thirds {width: 66.66%;}
@@ -542,7 +542,7 @@ p, li {
 /* Make Top WP Admin Bar Fixed on Mobile */
 @media screen and (max-width: 600px) {
   #wpadminbar {
-    position: fixed;
+	position: fixed;
   }
 }
 /* Seach Form */
@@ -567,7 +567,7 @@ p, li {
 }
 @media (min-width: 530px) {
   .search-form .s {
-    font-size: 1.4rem
+	font-size: 1.4rem
   }
 }
 .search-submit {
@@ -729,7 +729,7 @@ body.login {
 }
 @media (min-width: 530px) {
   .btn--large {
-    font-size: 1.9rem
+	font-size: 1.9rem
   }
 }
 .btn--inactive {
@@ -761,8 +761,8 @@ body.login {
 @media (min-width: 635px) {
   .edit-note,
   .delete-note {
-    position: relative;
-    top: -12px
+	position: relative;
+	top: -12px
   }
 }
 .edit-note:hover,
@@ -792,13 +792,13 @@ body.login {
 }
 @media (max-width: 400px) {
   .note-title-field {
-    width: 100%
+	width: 100%
   }
 }
 @media (min-width: 635px) {
   .note-title-field {
-    width: 65%;
-    font-size: 3.125rem
+	width: 65%;
+	font-size: 3.125rem
   }
 }
 .note-body-field {
@@ -821,20 +821,20 @@ body.login {
 }
 @-webkit-keyframes pulseBorder {
   0% {
-    border: 1px solid #fff;
+	border: 1px solid #fff;
   }
 
   100% {
-    border: 1px solid #ccc;
+	border: 1px solid #ccc;
   }
 }
 @keyframes pulseBorder {
   0% {
-    border: 1px solid #fff;
+	border: 1px solid #fff;
   }
 
   100% {
-    border: 1px solid #ccc;
+	border: 1px solid #ccc;
   }
 }
 /* Create Note */
@@ -926,15 +926,15 @@ body.login {
 }
 @media (min-width: 960px) {
   .site-header__menu {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    position: static;
-    background-color: transparent;
-    float: right;
-    padding-top: 0;
-    padding-bottom: 0;
-    top: 0
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0) scale(1);
+	position: static;
+	background-color: transparent;
+	float: right;
+	padding-top: 0;
+	padding-bottom: 0;
+	top: 0
   }
 }
 .site-header__search-trigger {
@@ -947,13 +947,13 @@ body.login {
 }
 @media (min-width: 530px) {
   .site-header__search-trigger {
-    top: 4px;
-    font-size: 1.4rem
+	top: 4px;
+	font-size: 1.4rem
   }
 }
 @media (min-width: 960px) {
   .site-header__search-trigger {
-    display: none
+	display: none
   }
 }
 .site-header__menu-trigger {
@@ -967,13 +967,13 @@ body.login {
 }
 @media (min-width: 530px) {
   .site-header__menu-trigger {
-    top: 5px;
-    font-size: 1.4rem
+	top: 5px;
+	font-size: 1.4rem
   }
 }
 @media (min-width: 960px) {
   .site-header__menu-trigger {
-    display: none
+	display: none
   }
 }
 .site-header__util {
@@ -981,8 +981,8 @@ body.login {
 }
 @media (min-width: 960px) {
   .site-header__util {
-    padding: 0;
-    float: right
+	padding: 0;
+	float: right
   }
 }
 .site-header__btn {
@@ -990,7 +990,7 @@ body.login {
 }
 @media (min-width: 960px) {
   .site-header__btn {
-    float: left
+	float: left
   }
 }
 .site-header .btn--with-photo {
@@ -1024,9 +1024,9 @@ body.login {
 }
 @media (min-width: 960px) {
   .site-footer__col-one {
-    text-align: left;
-    width: 33%;
-    float: left
+	text-align: left;
+	width: 33%;
+	float: left
   }
 }
 .site-footer__col-two-three-group {
@@ -1036,10 +1036,10 @@ body.login {
 }
 @media (min-width: 960px) {
   .site-footer__col-two-three-group {
-    text-align: left;
-    float: left;
-    width: 42%;
-    margin: 0
+	text-align: left;
+	float: left;
+	width: 42%;
+	margin: 0
   }
 }
 .site-footer__col-two {
@@ -1059,12 +1059,12 @@ body.login {
 }
 @media (min-width: 960px) {
   .site-footer__col-four {
-    padding-top: 0;
-    margin: 0;
-    clear: none;
-    text-align: left;
-    width: 25%;
-    float: right
+	padding-top: 0;
+	margin: 0;
+	clear: none;
+	text-align: left;
+	width: 25%;
+	float: right
   }
 }
 .main-navigation {
@@ -1084,8 +1084,8 @@ body.login {
 }
 @media (min-width: 960px) {
   .main-navigation {
-    float: left;
-    margin-right: 20px
+	float: left;
+	margin-right: 20px
   }
 }
 .main-navigation li {
@@ -1093,8 +1093,8 @@ body.login {
 }
 @media (min-width: 960px) {
   .main-navigation li {
-    float: left;
-    padding-left: 20px
+	float: left;
+	padding-left: 20px
   }
 }
 .main-navigation a {
@@ -1106,8 +1106,8 @@ body.login {
 }
 @media (min-width: 960px) {
   .main-navigation a {
-    display: inline-block;
-    padding: 0
+	display: inline-block;
+	padding: 0
   }
 }
 .main-navigation .current-menu-item a,
@@ -1121,7 +1121,7 @@ body.login {
 }
 @media (min-width: 530px) {
   .page-banner {
-    padding: 130px 0 60px 0
+	padding: 130px 0 60px 0
   }
 }
 .page-banner__content {
@@ -1137,7 +1137,7 @@ body.login {
 }
 @media (min-width: 530px) {
   .page-banner__title {
-    font-size: 5rem
+	font-size: 5rem
   }
 }
 .page-banner__bg-image {
@@ -1157,7 +1157,7 @@ body.login {
 }
 @media (min-width: 530px) {
   .page-banner__intro {
-    font-size: 1.65rem
+	font-size: 1.65rem
   }
 }
 .page-banner__intro p {
@@ -1175,8 +1175,8 @@ body.login {
 }
 @media (min-width: 960px) {
   .hero-slider__interior {
-    padding-top: 130px;
-    padding-bottom: 130px
+	padding-top: 130px;
+	padding-bottom: 130px
   }
 }
 .hero-slider__slide {
@@ -1191,7 +1191,7 @@ body.login {
 }
 @media (min-width: 960px) {
   .hero-slider__overlay {
-    width: 50%
+	width: 50%
   }
 }
 .slick-dots {
@@ -1206,7 +1206,7 @@ body.login {
 }
 @media (min-width: 960px) {
   .slick-dots {
-    top: 50px
+	top: 50px
   }
 }
 .slick-dots li {
@@ -1246,7 +1246,7 @@ body.login {
 }
 @media (min-width: 960px) {
   .glide__bullets {
-    top: 50px
+	top: 50px
   }
 }
 .glide__bullets button {
@@ -1308,7 +1308,7 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 960px) {
   .search-overlay__icon {
-    font-size: 2.5rem
+	font-size: 2.5rem
   }
 }
 .search-overlay--active {
@@ -1337,14 +1337,14 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 530px) {
   .search-overlay__close {
-    top: 18px;
-    font-size: 2.1rem
+	top: 18px;
+	font-size: 2.1rem
   }
 }
 @media (min-width: 960px) {
   .search-overlay__close {
-    top: 26px;
-    font-size: 2.8rem
+	top: 26px;
+	font-size: 2.8rem
   }
 }
 .search-overlay__close:hover {
@@ -1368,14 +1368,14 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 530px) {
   .search-term {
-    font-size: 1.5rem
+	font-size: 1.5rem
 
   }
 }
 @media (min-width: 960px) {
   .search-term {
-    width: 80%;
-    font-size: 3rem
+	width: 80%;
+	font-size: 3rem
 
   }
 }
@@ -1437,7 +1437,7 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 530px) {
   .headline--large {
-    font-size: 6.25rem
+	font-size: 6.25rem
   }
 }
 .headline--large-medium {
@@ -1450,7 +1450,7 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 530px) {
   .headline--medium {
-    font-size: 3.125rem
+	font-size: 3.125rem
   }
 }
 .headline--small-plus {
@@ -1465,7 +1465,7 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 530px) {
   .headline--small {
-    font-size: 1.6875rem
+	font-size: 1.6875rem
   }
 }
 .headline--smaller {
@@ -1512,7 +1512,7 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 960px) {
   .full-width-split {
-    display: flex
+	display: flex
   }
 }
 .full-width-split__one {
@@ -1521,12 +1521,12 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 960px) {
   .full-width-split__one {
-    padding: 40px
+	padding: 40px
   }
 }
 @media (min-width: 960px) {
   .full-width-split__one .full-width-split__inner {
-    float: right
+	float: right
   }
 }
 .full-width-split__two {
@@ -1536,12 +1536,12 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 960px) {
   .full-width-split__two {
-    padding: 40px
+	padding: 40px
   }
 }
 @media (min-width: 1350px) {
   .full-width-split__inner {
-    width: 610px
+	width: 610px
   }
 }
 .event-summary {
@@ -1594,9 +1594,9 @@ body.admin-bar .search-overlay {
 }
 @media (min-width: 767px) {
   .page-links {
-    margin: 0 0 40px 20px;
-    width: 300px;
-    float: right
+	margin: 0 0 40px 20px;
+	width: 300px;
+	float: right
   }
 }
 .page-links__title {

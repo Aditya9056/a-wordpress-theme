@@ -4,7 +4,7 @@
   margin-bottom: 1.7rem;
 
   &:last-of-type {
-    border-bottom: none;
-    margin-bottom: 0;
+	border-bottom: none;
+	margin-bottom: 0;
   }
 }

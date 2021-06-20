@@ -24,8 +24,8 @@
 
 .edit-note, .delete-note {
   @media (min-width: 635px) {
-    position: relative;
-    top: -12px;
+	position: relative;
+	top: -12px;
   }
 }
 
@@ -58,12 +58,12 @@
   top: 1px;
 
   @media (max-width: 400px) {
-    width: 100%;
+	width: 100%;
   }
 
   @media (min-width: 635px) {
-    width: 65%;
-    font-size: 3.125rem;
+	width: 65%;
+	font-size: 3.125rem;
   }
 }
 
@@ -88,11 +88,11 @@
 
 @keyframes pulseBorder {
   0% {
-    border: 1px solid #FFF;
+	border: 1px solid #FFF;
   }
 
   100% {
-    border: 1px solid #CCC;
+	border: 1px solid #CCC;
   }
 }
 
