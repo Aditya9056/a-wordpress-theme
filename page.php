@@ -17,7 +17,7 @@ while ( have_posts() ) {
 
 	<div class="container container--narrow page-section">
 		<?php
-		define("parentID", wp_get_post_parent_ID( get_the_ID() ) );
+		define( 'parentID', wp_get_post_parent_ID( get_the_ID() ) );
 
 		if ( parentID ) {
 			?>
@@ -32,6 +32,21 @@ while ( have_posts() ) {
 			<?php
 		}
 		?>
+
+		<div class="page-links">
+			<h2 class="page-links__title"<a href="#">Privacy Policy</a></h2>
+			<ul class="min-list">
+				<?php
+				wp_list_pages(
+					array(
+						'title_li' => null,
+						'child_of' => 37
+					)
+				);
+				?>
+			</ul>
+		</div>
+
 		<div class="generic-content">
 			<?php the_content(); ?>
 		</div>
