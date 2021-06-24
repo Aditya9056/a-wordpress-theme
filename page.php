@@ -32,20 +32,38 @@ while ( have_posts() ) {
 			<?php
 		}
 		?>
+		<?php
+		
+		$children = get_pages( array('child_of=' => get_the_ID() ));
 
+		print_r($children);
+
+		if( parentID ||  count( $children ) > 0 ) {		?>
 		<div class="page-links">
-			<h2 class="page-links__title"<a href="#">Privacy Policy</a></h2>
+			<h2 class="page-links__title"> 
+			<!-- // gets page link via it's id -->
+				<a href="<?php echo get_permalink( parentID ); ?>"> 
+				<!-- Get the current page title  -->
+					<?php echo get_the_title(); ?> 
+				</a>
+			</h2>
 			<ul class="min-list">
 				<?php
+				if ( parentID ) {
+					$childOfValue = parentID;
+				} else {
+					$childOfValue = get_the_ID();
+				}
 				wp_list_pages(
 					array(
 						'title_li' => null,
-						'child_of' => 37
+						'child_of' => $childOfValue,
 					)
 				);
 				?>
 			</ul>
 		</div>
+		<?php }	?>
 
 		<div class="generic-content">
 			<?php the_content(); ?>
