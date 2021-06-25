@@ -17,14 +17,15 @@ while ( have_posts() ) {
 
 	<div class="container container--narrow page-section">
 		<?php
-		define( 'parentID', wp_get_post_parent_ID( get_the_ID() ) );
+		// define( 'parentID', wp_get_post_parent_ID( get_the_ID() ) );
+		$parentID = wp_get_post_parent_ID( get_the_ID() );
 
-		if ( parentID ) {
+		if ( $parentID ) {
 			?>
 			<div class="metabox metabox--position-up metabox--with-home-link">
 					<p>
-						<a class="metabox__blog-home-link" href="<?php echo get_permalink( parentID ); ?>">
-							<i class="fa fa-home" aria-hidden="true"></i> Back to <?php echo get_the_title( parentID ); ?>
+						<a class="metabox__blog-home-link" href="<?php echo get_permalink( $parentID ); ?>">
+							<i class="fa fa-home" aria-hidden="true"></i> Back to <?php echo get_the_title( $parentID ); ?>
 						</a>
 						<span class="metabox__main"> <?php the_title(); ?> </span>
 					</p>
@@ -32,25 +33,30 @@ while ( have_posts() ) {
 			<?php
 		}
 		?>
-		<?php
-		
+		<?php 
 		$children = get_pages( array('child_of=' => get_the_ID() ));
 
-		print_r($children);
+		// $child_args = array(
+		// 	'post_parent' => parentId,
+		// );
+		
+		// $children = get_children( $child_args );
+		print_r( $children );
 
-		if( parentID ||  count( $children ) > 0 ) {		?>
+			if( $parentID ||  $children ) {		
+		?>
 		<div class="page-links">
 			<h2 class="page-links__title"> 
 			<!-- // gets page link via it's id -->
-				<a href="<?php echo get_permalink( parentID ); ?>"> 
+				<a href="<?php echo get_permalink( $parentID ); ?>"> 
 				<!-- Get the current page title  -->
 					<?php echo get_the_title(); ?> 
 				</a>
 			</h2>
 			<ul class="min-list">
 				<?php
-				if ( parentID ) {
-					$childOfValue = parentID;
+				if ( $parentID ) {
+					$childOfValue = $parentID;
 				} else {
 					$childOfValue = get_the_ID();
 				}
