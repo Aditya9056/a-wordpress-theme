@@ -7,8 +7,6 @@ class FunctionsClass {
 		add_action( 'wp_enqueue_scripts', array( $this, 'load_assets' ) );
 		add_action( 'after_setup_theme', array( $this, 'theme_features' ) );
 		
-		// Filters
-		// add_filter('nav_menu_css_class' , array( $this, 'special_nav_class') , 10 , 2);
 		
 		// Dynamic Header & Footer Navigation
 		register_nav_menu('headerMenuLocation', 'Header Menu Location');
@@ -19,14 +17,6 @@ class FunctionsClass {
 
 	public function theme_features() {
 		add_theme_support( 'title-tag' );
-	}
-	
-
-	public function special_nav_class ($classes, $item) {
-	if (in_array('current-menu-item', $classes) ){
-		$classes[] = 'active ';
-	}
-	return $classes;
 	}
 
 	public function load_assets() {
