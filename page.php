@@ -34,16 +34,18 @@ while ( have_posts() ) {
 		}
 		?>
 		<?php 
-		$children = get_pages( array('child_of=' => get_the_ID() ));
+		$children = get_children( $parentID );
 
-		// $child_args = array(
-		// 	'post_parent' => parentId,
-		// );
-		
-		// $children = get_children( $child_args );
-		print_r( $children );
+		// echo $parentID;
+		// print_r( count( $children )  );
 
-			if( $parentID ||  $children ) {		
+		if( $parentID || $children ){
+			
+			$child_args = array(
+				'post_parent' => $parentID,
+			);
+			
+			$children = get_children( $child_args );
 		?>
 		<div class="page-links">
 			<h2 class="page-links__title"> 

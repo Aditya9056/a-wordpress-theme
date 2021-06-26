@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
 	<?php wp_head(); ?>
-	<meta charset="UTF-8">
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php wp_head(); ?></title>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <header class="site-header">
 	<div class="container">
 		<h1 class="school-logo-text float-left">
