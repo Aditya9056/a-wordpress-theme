@@ -33,20 +33,20 @@ while ( have_posts() ) {
 			<?php
 		}
 		?>
-		<?php 
+		<?php
 		$children = get_children( $parentID );
 
 		// echo $parentID;
 		// print_r( count( $children )  );
 
-		if( $parentID || $children ){
-			
+		if ( $parentID || $children ) {
+
 			$child_args = array(
 				'post_parent' => $parentID,
 			);
-			
+
 			$children = get_children( $child_args );
-		?>
+			?>
 		<div class="page-links">
 			<h2 class="page-links__title"> 
 			<!-- // gets page link via it's id -->
@@ -71,7 +71,7 @@ while ( have_posts() ) {
 				?>
 			</ul>
 		</div>
-		<?php }	?>
+		<?php } ?>
 
 		<div class="generic-content">
 			<?php the_content(); ?>

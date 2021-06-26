@@ -2,7 +2,7 @@ class GMap {
 	constructor() {
 		document.querySelectorAll( ".acf-map" ).forEach(
 			el => {
-            this.new_map( el )
+				this.new_map( el )
 			}
 		)
 	}

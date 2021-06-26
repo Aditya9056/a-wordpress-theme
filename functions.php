@@ -6,12 +6,11 @@ class FunctionsClass {
 		// Actions
 		add_action( 'wp_enqueue_scripts', array( $this, 'load_assets' ) );
 		add_action( 'after_setup_theme', array( $this, 'theme_features' ) );
-		
-		
+
 		// Dynamic Header & Footer Navigation
-		register_nav_menu('headerMenuLocation', 'Header Menu Location');
-		register_nav_menu('footerMenuOne', 'Footer Menu One');
-		register_nav_menu('footerMenuTwo', 'Footer Menu Two');
+		register_nav_menu( 'headerMenuLocation', 'Header Menu Location' );
+		register_nav_menu( 'footerMenuOne', 'Footer Menu One' );
+		register_nav_menu( 'footerMenuTwo', 'Footer Menu Two' );
 
 	}
 

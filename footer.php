@@ -16,9 +16,11 @@
 					<!-- Dynamic Footer Menu One -->
 
 					<?php
-					wp_nav_menu(array(
-						'theme_location' => 'footerMenuOne'
-					));
+					wp_nav_menu(
+						array(
+							'theme_location' => 'footerMenuOne',
+						)
+					);
 					?>
 					</nav>
 				</div>
@@ -29,9 +31,11 @@
 					<!-- Dynamic Footer Menu Two -->
 					
 					<?php
-					wp_nav_menu(array(
-						'theme_location' => 'footerMenuTwo'
-					));
+					wp_nav_menu(
+						array(
+							'theme_location' => 'footerMenuTwo',
+						)
+					);
 					?>
 					</nav>
 				</div>

@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<?php wp_head(); ?>
-	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php wp_head(); ?></title>
@@ -17,11 +17,14 @@
 		<i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
 		<div class="site-header__menu group">
 			<nav class="main-navigation">
-			<?php 
-				wp_nav_menu(array(
-					'theme_location' => 'headerMenuLocation')
+			<!-- TODO Add active class on Single Post Page -->
+			<?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'headerMenuLocation',
+					)
 				);
-			?>
+				?>
 			</nav>
 			<div class="site-header__util">
 				<a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
