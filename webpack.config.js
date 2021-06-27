@@ -1,13 +1,3 @@
-/*
-  SUPER IMPORTANT: This config assumes your theme folder is named
-  exactly 'fictional-university-theme' and that you have a folder
-  inside it named 'bundled-assets' - If you'd like to adapt this
-  config to work with your own custom folder structure and names
-  be sure to adjust the publicPath value on line #116. You do NOT
-  need to update any of the other publicPath settings in this file,
-  only the one on line #116.
-*/
-
 const currentTask            = process.env.npm_lifecycle_event
 const path                   = require( "path" )
 const MiniCssExtractPlugin   = require( "mini-css-extract-plugin" )
