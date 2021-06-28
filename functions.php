@@ -40,7 +40,7 @@ class FunctionsClass {
 			);
 			wp_enqueue_script(
 				'university-script-js',
-				get_theme_file_uri('/bundled-assets/scripts.9407ba0c9e80d0b7c41d.js'),
+				get_theme_file_uri(' / bundled - assets / scripts.9407ba0c9e80d0b7c41d.js'),
 				NULL,
 				1,
 				true
@@ -48,7 +48,7 @@ class FunctionsClass {
 
 			wp_enqueue_style(
 				'main-style',
-				get_theme_file_uri('/bundled-assets/styles.9407ba0c9e80d0b7c41d.css'),
+				get_theme_file_uri(' / bundled - assets / styles.9407ba0c9e80d0b7c41d.css'),
 				NULL,
 				1,
 				false
